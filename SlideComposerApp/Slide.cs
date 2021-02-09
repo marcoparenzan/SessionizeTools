@@ -19,7 +19,7 @@ namespace SlideComposerApp
     {
         [FunctionName("Slide")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequestMessage req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequestMessage req,
             ILogger log)
         {
             var query = req.RequestUri.ParseQueryString();
