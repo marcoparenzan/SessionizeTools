@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideComposerApp", "SlideComposerApp\SlideComposerApp.csproj", "{F56F1553-849C-4EFA-B062-50A4FDEFB7DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlideComposerApp", "SlideComposerApp\SlideComposerApp.csproj", "{F56F1553-849C-4EFA-B062-50A4FDEFB7DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
